@@ -1,0 +1,19 @@
+{
+  "name": "dhall_mahir_cs554_lab2",
+  "version": "1.0.0",
+  "description": "Lab 2 CS 554",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2.git"
+  },
+  "author": "Mahir Dhall 10445966",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2/issues"
+  },
+  "homepage": "https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2#readme"
+}
