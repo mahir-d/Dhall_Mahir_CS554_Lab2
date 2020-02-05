@@ -4,7 +4,8 @@
   "description": "Lab 2 CS 554",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -12,8 +13,9 @@
   },
   "author": "Mahir Dhall 10445966",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2/issues"
-  },
-  "homepage": "https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2#readme"
+  "homepage": "https://github.com/mahir-d/Dhall_Mahir_CS554_Lab2#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1"
+  }
 }
