@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+.card{
+    justify-content: space-around;
+    background-color: #fdb577b4;
+    margin: 10%;
+}
+
+.d-inline-flex{
+    justify-content: center;
+}
+
+body{
+    background-color: #116466;
+}
+ 
+.nav{
+    background-color: rgba(179, 156, 28, 0.534);
+    
+    margin: 10%;
+    padding-left: 10;
+    padding-right: 10;
+    display: flex;
+}
+
+
