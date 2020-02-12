@@ -2,6 +2,9 @@
 
 
 
+$primary-color : teal;
+
+
 
 
 .card{
@@ -19,12 +22,21 @@ body{
 }
  
 .nav{
-    background-color: rgba(179, 156, 28, 0.534);
-    
+    background-color: #0B0C10;
+    color: #66FCF1;
+    font-weight: bold;
     margin: 10%;
     padding-left: 10;
     padding-right: 10;
     display: flex;
 }
+.nav-link{
+color: #66FCF1;
+    font-weight: bold;
+}
 
 
+button{
+    background-color: #0072ee;
+    color: #ffffff;
+}

@@ -3,63 +3,62 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" , intial-scale=1>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="./css/styles.css?v=2">
-
-
-
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-
-        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script> -->
+        <title>Sing It Like You Mean It</title>
 
     </head>
 
     <body>
 
+        <h1 hidden> 1 </h1>
+        <h2 hidden>2</h2>
+        <h3 hidden>3</h3>
+        <h4 hidden>4</h4>
+        
 
         <div class="d-flex">
+
             <div class="row">
-                <div class="col-lg-2 col-sm-12">
+
+                <div class="col-md-2 col-sm-12">
 
                     <!-- nav bar location -->
-                    <nav class="flex-coloumn" role="navigation">
+                    <nav class="flex-coloumn">
                         <ul class="nav flex-coloumn">
-                            <li class="nav-item"><a class="nav-link" href="#ArianaCard"> product 1</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 2</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 3</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 4</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 5</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 6</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 7</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 8</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 9</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"> product 10</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ArianaCard">Sing it like Ariana Grande</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#SamSmitCard">Sing it like Sam Smith</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#TayloSwiftCard"> Sing it like Taylor
+                                    Swift</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#MichaelJacksonCard">Sing it like Michael
+                                    Jackson</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#PostMaloneCard">Sing it like Post Malone</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#JustinBieberCard">Sing it like Justin
+                                    Bieber</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Drakecard">Sing it like Drake</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ChrisbrownCard">Sing it like Chris Brown</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#TravisScottCard">Sing it like Travis
+                                    Scott</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#EminemCard">Sing it like Eminem</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-md-10">
 
                     <div class="d-inline-flex">
                         <div class="row">
 
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="/images/maxresdefault.jpg" alt="singer">
+                                <div class="card" id="ArianaCard">
+                                    <img class="card-img-top" src="/images/maxresdefault.jpg" alt="Ariana Grande">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Insert this chip in your body to sing like Ariana Grande
+                                        <h5 class="card-title">Sing it Like Ariana</h5>
+                                        <p class="card-text">Sing through this microphone and sound like Ariana Grande
                                         </p>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        <button  type="button" class="btn btn-light" data-toggle="modal"
                                             data-target="#Ariana">More Details</button>
                                     </div>
 
@@ -68,14 +67,15 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title">Modal title</h5>
+                                                    <h5 class="modal-title">Sing it like Ariana</h5>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p>Modal body text goes here.</p>
+                                                    <p>Sing through this microphone and sound like Ariana Grande your
+                                                        favorite pop star</p>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
@@ -89,116 +89,328 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="SamSmitCard">
+                                    <img class="card-img-top" src="./images/samsmith.jpeg" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some 
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Sam</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Sam Smith</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#SamSmith">More Details</button>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="SamSmith">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Sam Smith</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Sam Smith your favorite
+                                                        singer/songwriter</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="#TayloSwiftCard">
+                                    <img class="card-img-top" src="./images/Taylorswift.jpeg" alt="Taylor Swift">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Taylor Swift</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Taylor Swift</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#TaylorSwift">More Details</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="TaylorSwift">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Taylor Swift</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Taylor Swift your favorite
+                                                        pop star</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="MichaelJacksonCard">
+                                    <img class="card-img-top" src="./images/MichaelJackson.jpg" alt="Michael Jackson">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Michael</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Michael Jackson your
+                                            favorite pop singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#MichaelJackson">More Details</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="MichaelJackson">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Michael Jackson</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Michael Jackson your
+                                                        favorite pop star</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="PostMaloneCard">
+                                    <img class="card-img-top" src="./images/PostMalone.jpeg" alt="Post Malone">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Post Malone</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Post Malone your
+                                            favorite rap artist</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#PostMalone">More Details</button>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="PostMalone">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Post Malone</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Post Malone your favorite
+                                                        rap artist</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="JustinBieberCard">
+                                    <img class="card-img-top" src="./images/JustinBieber.jpg" alt="Justin Bieber">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Justin Bieber</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Justin Bieber your
+                                            favorite pop singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#JustinBieber">More Details</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="JustinBieber">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Justin Bieber</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Justin Bieber your favorite
+                                                        pop singer</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="card" id="Drakecard">
+                                    <img class="card-img-top" src="./images/Drake.jpg" alt="Drake">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sing it like Drake</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Drake your favorite
+                                            rap singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#Drake">More Details</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="Drake">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Drake</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Drake your favorite rap
+                                                        singer</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="card" id="ChrisbrownCard">
+                                    <img class="card-img-top" src="./images/chrisbrown.jpg" alt="Chris Brown">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sing it like Chris Brown</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Chris Brown your
+                                            favorite pop singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#Chrisbrown">More Details</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="Chrisbrown">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Chris Brown</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Chris Brown your favorite
+                                                        pop singer</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="card" id="TravisScottCard">
+                                    <img class="card-img-top" src="./images/TravisScott.jpg" alt="Travis Scott">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sing it like Travis Scott</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Travis Scott your
+                                            favorite pop singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#TravisScott">More Details</button>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="TravisScott">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Travis Scott</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Travis Scott your favorite
+                                                        pop singer</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card" id="EminemCard">
+                                    <img class="card-img-top" src="./images/Eminem.jpg" alt="Eminem">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Sing it like Eminem</h5>
+                                        <p class="card-text">Sing in this microphone to sound like Eminem your favorite
+                                            rap singer</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal"
+                                            data-target="#Eminem">More Details</button>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
+                                    <!-- Modal -->
+                                    <div class="modal" tabindex="-1" role="dialog" id="Eminem">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Sing it like Eminem</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Sing in this microphone to sound like Eminem your favorite rap
+                                                        singer</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Done</button>
 
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+                            <!-- <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="card">
                                     <img class="card-img-top" src="..." alt="Card image cap">
                                     <div class="card-body">
@@ -221,7 +433,7 @@
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
 
