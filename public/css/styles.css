@@ -7154,9 +7154,11 @@ body {
   color: #66FCF1;
   font-weight: bold;
   margin: 10%;
-  padding-left: 10;
-  padding-right: 10;
-  display: flex; }
+  padding-left: 5;
+  padding-right: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
 .nav-link {
   color: #66FCF1;
